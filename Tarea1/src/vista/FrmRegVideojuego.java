@@ -146,5 +146,9 @@ public class FrmRegVideojuego extends JFrame implements ActionListener {
 		}
 	}
 	protected void do_btnLimpiar_actionPerformed(ActionEvent e) {
+		txtNombre.setText("");
+		txtConsola.setText("");
+		txtJugadores.setText("");
+		txtFecha.setText("");
 	}
 }
